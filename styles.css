@@ -3,9 +3,9 @@
 :root {
   --primary-color: #374151;
   --secondary-color: #d1fae5;
-  --bg-color:#F9FAFB;
-  --width-break:500px;
-  --width-break-footer:700px;
+  --bg-color: #f9fafb;
+  --width-break: 500px;
+  --width-break-footer: 700px;
 }
 
 body {
@@ -14,10 +14,15 @@ body {
   background-color: var(--bg-color);
 }
 
-main{
-   padding: 1rem;
-    max-width: var(--width-break);
-    margin: auto;   
+main {
+  padding: 1rem;
+  max-width: var(--width-break);
+  margin: auto;
+}
+
+#bg-img {
+  background-image: url("images/bg-img.png");
+  
 }
 
 /* navigation */
@@ -46,19 +51,19 @@ textarea {
 }
 
 /* button */
-.btn-style{
-    background-color: var(--primary-color);
-    border: 3px solid var(--secondary-color);
-    padding: 1rem;
-    font-size: large;
-    color: var(--secondary-color);
+.btn-style {
+  background-color: var(--primary-color);
+  border: 3px solid var(--secondary-color);
+  padding: 1rem;
+  font-size: large;
+  color: var(--secondary-color);
 }
 
 /* output box */
 #output {
   height: 7rem;
   width: 100%;
-  /* margin: 1rem; */
+  margin-bottom: 1rem;
   padding: 1rem;
   border: 3px solid var(--primary-color);
   display: block;
@@ -77,15 +82,15 @@ textarea {
   height: 25vh;
   text-align: center;
   font-size: small;
-  
 }
 
-h3{
-    padding-top: 1rem;
+h3 {
+  padding: 1rem 0rem;
+  margin: 0px;
 }
 
-.footer-text{
-    max-width: var(--width-break-footer);
-    margin: auto;
-    padding-bottom: 1rem;  
+.footer-text {
+  max-width: var(--width-break-footer);
+  margin: auto;
+  padding-bottom: 1rem;
 }
