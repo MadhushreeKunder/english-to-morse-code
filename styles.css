@@ -78,7 +78,7 @@ textarea {
 #footer {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  height: 10rem;
+  height: 11rem;
   text-align: center;
   font-size: small;
 }
