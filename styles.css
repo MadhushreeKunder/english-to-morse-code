@@ -14,15 +14,18 @@ body {
   background-color: var(--bg-color);
 }
 
-main {
+main{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-evenly;
+background-image: url("images/bg-img.png");}
+
+.inputarea {
   padding: 1rem;
   max-width: var(--width-break);
   margin: auto;
 }
 
-#bg-img {
-  background-image: url("images/bg-img.png");
-}
 
 /* navigation */
 .navigation {
@@ -78,7 +81,7 @@ textarea {
 #footer {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  height: 11rem;
+  height: auto;
   text-align: center;
   font-size: small;
 }
