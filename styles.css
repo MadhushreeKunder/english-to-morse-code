@@ -15,8 +15,7 @@ body {
 }
 
 main{
-  display: flex;
-  flex-wrap: wrap;
+
 justify-content: space-evenly;
 background-image: url("images/bg-img.png");}
 
